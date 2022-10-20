@@ -36,7 +36,7 @@ func CapitalizeEveryThirdAlphanumericChar(s string) string {
 func main() {
 
 	var input string
-	input = "divine oper..atio???n"
+	input = "aspriation.com"
 
 	outputStr := CapitalizeEveryThirdAlphanumericChar(input)
 	fmt.Println(outputStr)
